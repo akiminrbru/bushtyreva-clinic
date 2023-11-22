@@ -1130,4 +1130,8 @@ body {
 	.courseAdditions__content p {
 		font-size: 15px;
 	}
+
+	.courseTarif__inner h2 {
+		text-align: center;
+	}
 }
