@@ -1,0 +1,1133 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	/* font-family: "Merriweather", serif; */
+	font-family: "Montserrat", sans-serif;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 1190px) {
+	.container {
+		margin: 0 25px;
+	}
+}
+
+.courseBanner__inner {
+	background-image: url("images/courseBanner1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 56px 62px 124px 62px;
+}
+
+.courseBanner__content {
+	max-width: 623px;
+}
+
+.courseBanner__inner h1 {
+	color: #212226;
+	font-family: "Merriweather", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.courseBanner__inner p {
+	color: #212226;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 145%;
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+.courseBanner__inner button {
+	padding: 17px 69px;
+	border-radius: 50px;
+	background-color: #c3007d;
+	box-shadow: 0px 5px 15px 0px rgba(103, 0, 66, 0.3);
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	border: 0;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.courseBanner__inner button:hover {
+	background-color: #f509a0;
+}
+
+.courseDescription {
+	padding: 30px 0;
+}
+
+.courseDescription__inner {
+	background: #faf8f3;
+	padding: 62px 77px;
+	display: flex;
+	justify-content: space-between;
+	gap: 50px;
+}
+
+.courseDescription__inner h2 {
+	color: #212226;
+	font-family: "Merriweather", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.courseDescription__text {
+	max-width: 657px;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.courseDescription__text p {
+	color: #212226;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 145%;
+	margin: 0;
+}
+
+.courseDescription__text p b {
+	font-weight: 600;
+}
+
+.courseWhatGive__inner {
+	display: flex;
+	gap: 19px;
+}
+
+.courseWhatGive__inner > div {
+	padding: 49px 40px;
+	background-color: #f4f6f8;
+	width: calc((100% - 20px) / 2);
+}
+
+.courseWhatGive__left {
+	position: relative;
+}
+
+.courseWhatGive__left h2 {
+	color: #212226;
+	font-family: "Merriweather", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	margin: 0;
+	margin-bottom: 12px;
+}
+
+.courseWhatGive__text {
+	color: #212226;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 145%;
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+.courseWhatGive__textPurple {
+	color: #c3007d;
+	font-family: "Merriweather", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 145%;
+}
+
+.courseWhatGive__left img {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.courseWhatGive__right {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.courseWhatGive__right-item {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.courseWhatGive__right-item img {
+	width: 24px;
+	height: 24px;
+}
+
+.courseWhatGive__right-item h5 {
+	color: #212226;
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0;
+}
+
+.courseWhatGive__right-item p {
+	color: #212226;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 145%;
+}
+
+.courseExperts {
+	padding: 30px 0;
+}
+
+.courseExperts__inner {
+	border: 2px solid #e3ebf3;
+	padding: 70px 88px 70px 68px;
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+}
+
+.courseExperts__inner h2 {
+	color: #212226;
+	text-align: center;
+	font-family: "Merriweather", sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.courseExperts__content {
+	display: flex;
+	align-items: center;
+	gap: 37px;
+}
+
+.courseExperts__images {
+	display: flex;
+	max-width: 354px;
+}
+
+.courseExperts__images img {
+	box-sizing: border-box;
+	border-radius: 134px;
+}
+
+.courseExperts__images img:nth-child(2) {
+	position: relative;
+	left: -24px;
+}
+.courseExperts__images img:nth-child(3) {
+	position: relative;
+	left: -48px;
+}
+
+.courseExperts__content p {
+	color: #212226;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 145%;
+	margin: 0;
+}
+
+.courseExperts__content p b {
+	font-family: 700;
+}
+
+.courseEdutoria {
+	padding: 30px 0;
+}
+
+.courseEdutoria__inner {
+	background-image: url("images/courseBanner2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 48px 39px 58px 39px;
+}
+
+.courseEdutoria__inner h2 {
+	max-width: 660px;
+	color: #212226;
+	font-family: "Merriweather", sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	margin: 0;
+	margin-bottom: 73px;
+}
+
+.courseEdutoria__list {
+	display: flex;
+	gap: 21px;
+}
+
+.courseEdutoria__item {
+	opacity: 0.9;
+	background: #fff;
+	backdrop-filter: blur(2px);
+	padding: 20px 20px 31px 20px;
+	width: 100%;
+}
+
+.courseEdutoria__item span {
+	display: inline-block;
+	color: #c3007d;
+	font-family: "Merriweather", sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.courseEdutoria__item h5 {
+	color: #212226;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 135%;
+	margin: 0;
+	margin-bottom: 8px;
+}
+
+.courseEdutoria__item p {
+	color: #212226;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 135%;
+	margin: 0;
+}
+
+.courseTelemedicine__inner {
+	display: flex;
+	gap: 20px;
+	padding-bottom: 80px;
+}
+
+.courseTelemedicine__inner > div {
+	background-color: #faf8f3;
+	padding: 52px 40px 106px 40px;
+	width: calc((100% - 20px) / 2);
+}
+
+.courseTelemedicine__left h2 {
+	color: #212226;
+	font-family: "Merriweather", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	margin: 0;
+	margin-bottom: 12px;
+}
+
+.courseTelemedicine__text {
+	color: #212226;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 145%;
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+.courseTelemedicine__textPurple {
+	color: #c3007d;
+	font-family: "Merriweather", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 145%;
+	margin: 0;
+}
+
+.courseTelemedicine__right h3 {
+	margin: 0;
+	margin-bottom: 24px;
+	color: #212226;
+	font-family: "Merriweather", sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.courseTelemedicine__list {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.courseTelemedicine__item {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.courseTelemedicine__item img {
+	width: 24px;
+	height: 24px;
+}
+
+.courseTelemedicine__item h5 {
+	margin: 0;
+	color: #212226;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.courseTelemedicine__item p {
+	color: #212226;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 145%;
+	margin: 0;
+}
+
+.courseAdditions {
+	padding-top: 80px;
+	padding-bottom: 146px;
+}
+
+.courseAdditions__inner {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	justify-content: space-between;
+}
+
+.courseAdditions__content {
+	max-width: 557px;
+}
+
+.courseAdditions__content h2 {
+	color: #212226;
+	font-family: "Merriweather", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.courseAdditions__content p {
+	color: #212226;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 145%;
+	margin: 0;
+}
+
+.courseAdditions__content p b {
+	font-weight: 600;
+}
+
+.courseAdditions img {
+	max-width: 463px;
+	width: 100%;
+	height: auto;
+}
+
+.courseBuy__inner h2 {
+	color: #212226;
+	font-family: "Merriweather", sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	margin: 0;
+	margin-bottom: 40px;
+}
+
+.courseBuy__content {
+	display: flex;
+	gap: 20px;
+}
+
+.courseBuy__content > div {
+	width: calc((100% - 20px) / 2);
+}
+
+.courseBuy__left {
+	margin-top: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.courseBuy__left img {
+	width: 100%;
+	height: auto;
+	max-width: 302px;
+}
+
+.courseBuy__right p {
+	color: #212226;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 145%;
+	margin: 0;
+	margin-bottom: 47px;
+}
+
+.courseBuy__right button {
+	transition: background-color 0.3s ease-in-out;
+	border-radius: 50px;
+	background-color: #c3007d;
+	box-shadow: 0px 5px 15px 0px rgba(103, 0, 66, 0.3);
+	padding: 17px 66px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	border: 0;
+	cursor: pointer;
+}
+
+.courseBuy__right button:hover {
+	background-color: #f509a0;
+}
+
+.courseGoal {
+	padding-bottom: 30px;
+}
+
+.courseGoal__inner {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.courseGoal__inner > div {
+	width: calc((100% - 20px) / 2);
+}
+
+.courseGoal__left img {
+	display: block;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.courseGoal__right {
+	background: #faf8f3;
+	padding: 49px 43px 38px 42px;
+}
+
+.courseGoal__right h2 {
+	margin: 0;
+	margin-bottom: 12px;
+	color: #212226;
+	font-family: "Merriweather", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.courseGoal__right ul {
+	padding-left: 28px;
+	color: #212226;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 145%;
+	margin: 0;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	list-style: none;
+}
+
+.courseGoal__right ul li::before {
+	display: block;
+	content: "";
+	position: relative;
+	top: 15px;
+	right: 15px;
+	border-radius: 100%;
+	background-color: #212226;
+	width: 3px;
+	height: 3px;
+}
+
+.courseGoal__list {
+	display: flex;
+	gap: 16px;
+}
+
+.courseGoal__item {
+	border: 1px solid #d2d2d2;
+	padding-top: 23px;
+	padding-bottom: 33px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 214px;
+}
+
+.courseGoal__item-number {
+	color: #c3007d;
+	font-size: 50px;
+	font-weight: 600;
+	margin-bottom: -3px;
+}
+
+.courseGoal__item-text {
+	color: #c3007d;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.courseGoal__item p {
+	color: #212226;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.courseTarif {
+	padding-top: 9px;
+	padding-bottom: 68px;
+}
+
+.courseTarif__inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.courseTarif__inner img {
+	margin-bottom: 20px;
+}
+
+.courseTarif__inner h2 {
+	margin: 0;
+	margin-bottom: 59px;
+	color: #212226;
+	font-family: "Merriweather", sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.courseTarif__list {
+	display: flex;
+	gap: 18px;
+}
+
+.courseTarif__item {
+	background: #f4f6f8;
+	padding: 48px 19px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.courseTarif__item-top h3 {
+	color: #212226;
+	text-align: center;
+	font-family: "Merriweather", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.courseTarif__item-top h3::after {
+	margin-top: 12px;
+	content: "";
+	width: 89px;
+	height: 2px;
+	background-color: #212226;
+}
+
+.courseTarif__item-top ul {
+	padding-left: 22px;
+	display: flex;
+	flex-direction: column;
+	gap: 5.5px;
+	color: #212226;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 135%;
+	list-style: none;
+	margin-bottom: 25px;
+}
+
+.courseTarif__item-top ul li::before {
+	display: block;
+	content: "";
+	position: relative;
+	top: 15px;
+	right: 15px;
+	border-radius: 100%;
+	background-color: #212226;
+	width: 3px;
+	height: 3px;
+}
+
+.courseTarif__item-bot {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 25px;
+}
+
+.courseTarif__item-bot p {
+	color: #212226;
+	text-align: center;
+	font-family: "Merriweather", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.courseTarif__item-bot button {
+	border-radius: 50px;
+	background-color: #c3007d;
+	box-shadow: 0px 5px 15px 0px rgba(103, 0, 66, 0.3);
+	padding: 17px 115px;
+	border: 0;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.courseTarif__item-bot button:hover {
+	background-color: #f509a0;
+}
+
+.courseTarif__item:nth-child(2) {
+	background-color: #c3007d;
+	margin-top: -22px;
+	margin-bottom: -28px;
+}
+
+.courseTarif__item-middle {
+	max-height: 427px;
+	margin-top: 22px;
+}
+
+.courseTarif__item:nth-child(2) .courseTarif__item-top h3 {
+	color: #fff;
+}
+
+.courseTarif__item:nth-child(2) .courseTarif__item-top h3::after {
+	background-color: #fff;
+}
+
+.courseTarif__item:nth-child(2) .courseTarif__item-top ul {
+	color: #fff;
+}
+
+.courseTarif__item:nth-child(2) .courseTarif__item-top ul li::before {
+	background-color: #fff;
+}
+
+.courseTarif__item:nth-child(2) .courseTarif__item-bot p {
+	color: #fff;
+}
+
+.courseTarif__item:nth-child(2) .courseTarif__item-bot button {
+	background-color: #fff;
+	color: #c3007d;
+}
+
+.courseTarif__item:nth-child(2) .courseTarif__item-bot button:hover {
+	background-color: #f509a0;
+	color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+	.courseTarif__list {
+		flex-direction: column;
+		gap: 30px;
+	}
+
+	.courseTarif__inner h2 {
+		margin-bottom: 37px;
+	}
+
+	.courseTarif__item:nth-child(2) {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.courseBanner__inner h1 {
+		font-size: 30px;
+	}
+
+	.courseBanner__inner {
+		padding: 30px 30px 90px 30px;
+	}
+
+	.courseDescription__inner {
+		padding: 30px 45px;
+	}
+
+	.courseDescription__inner h2 {
+		font-size: 25px;
+	}
+
+	.courseDescription__text p {
+		font-size: 16px;
+	}
+
+	.courseWhatGive__inner > div {
+		padding: 39px 30px;
+	}
+
+	.courseWhatGive__left h2 {
+		font-size: 25px;
+	}
+
+	.courseWhatGive__text {
+		font-size: 16px;
+	}
+
+	.courseWhatGive__textPurple {
+		font-size: 18px;
+	}
+
+	.courseExperts__inner h2 {
+		font-size: 25px;
+	}
+
+	.courseExperts__inner {
+		padding: 40px;
+	}
+
+	.courseExperts__content p {
+		font-size: 16px;
+	}
+
+	.courseExperts__inner {
+		gap: 25px;
+	}
+
+	.courseExperts__images {
+		max-width: 253px;
+	}
+
+	.courseExperts__images img {
+		width: 100px;
+		height: 100px;
+	}
+
+	.courseTarif__item-top h3 {
+		font-size: 25px;
+	}
+
+	.courseTarif__item-bot p {
+		font-size: 25px;
+	}
+
+	.courseTarif__item-bot button {
+		font-size: 15px;
+	}
+
+	.courseTarif__item {
+		padding: 30px 19px;
+	}
+
+	.courseEdutoria__inner h2 {
+		font-size: 25px;
+		margin-bottom: 50px;
+	}
+
+	.courseEdutoria__inner {
+		padding: 40px 35px;
+	}
+
+	.courseTelemedicine__left h2 {
+		font-size: 25px;
+	}
+
+	.courseTelemedicine__text {
+		font-size: 16px;
+	}
+
+	.courseTelemedicine__textPurple {
+		font-size: 20px;
+	}
+
+	.courseTelemedicine__inner > div {
+		padding: 40px 30px 80px 30px;
+	}
+
+	.courseTelemedicine__right h3 {
+		font-size: 22px;
+	}
+
+	.courseTelemedicine__item h5 {
+		font-size: 17px;
+	}
+
+	.courseGoal__right h2 {
+		font-size: 25px;
+	}
+
+	.courseGoal__right {
+		padding: 30px 25px;
+	}
+
+	.courseGoal__right ul {
+		font-size: 16px;
+	}
+
+	.courseGoal__item-number {
+		font-size: 40px;
+	}
+
+	.courseGoal__item-text {
+		font-size: 22px;
+	}
+
+	.courseBuy__inner h2 {
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+
+	.courseBuy__right p {
+		font-size: 17px;
+	}
+
+	.courseAdditions__content h2 {
+		font-size: 25px;
+	}
+
+	.courseAdditions__content p {
+		font-size: 16px;
+	}
+
+	.courseAdditions__inner {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.courseExperts__content {
+		flex-direction: column;
+		text-align: center;
+		gap: 30px;
+	}
+
+	.courseEdutoria__list {
+		flex-direction: column;
+	}
+
+	.courseTelemedicine__inner {
+		flex-direction: column;
+	}
+
+	.courseTelemedicine__inner > div {
+		width: 100%;
+	}
+
+	.courseGoal__inner {
+		flex-direction: column;
+	}
+
+	.courseGoal__inner > div {
+		width: 100%;
+	}
+
+	.courseBuy__left {
+		align-items: end;
+		margin-bottom: 23px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.courseBanner__inner h1 {
+		font-size: 20px;
+	}
+
+	.courseBanner__inner {
+		padding: 20px 20px 70px 20px;
+	}
+
+	.courseBanner__inner p {
+		font-size: 15px;
+	}
+
+	.courseBanner__inner button {
+		font-size: 15px;
+	}
+
+	.courseDescription__inner {
+		padding: 20px;
+		flex-direction: column;
+		gap: 25px;
+	}
+
+	.courseDescription__inner h2 {
+		font-size: 20px;
+	}
+
+	.courseDescription__text p {
+		font-size: 15px;
+	}
+
+	.courseDescription__text {
+		gap: 15px;
+	}
+
+	.courseWhatGive__inner {
+		flex-direction: column;
+	}
+
+	.courseWhatGive__inner > div {
+		width: 100%;
+	}
+
+	.courseWhatGive__inner .courseWhatGive__left {
+		padding-bottom: 200px;
+	}
+
+	.courseWhatGive__inner > div {
+		padding: 25px 20px;
+	}
+
+	.courseWhatGive__left h2 {
+		font-size: 20px;
+	}
+
+	.courseWhatGive__text {
+		font-size: 15px;
+	}
+
+	.courseWhatGive__textPurple {
+		font-size: 17px;
+	}
+
+	.courseWhatGive__right-item h5 {
+		font-size: 17px;
+	}
+
+	.courseWhatGive__right-item p {
+		font-size: 15px;
+	}
+
+	.courseExperts__inner {
+		padding: 25px;
+	}
+
+	.courseExperts__inner h2 {
+		font-size: 20px;
+	}
+
+	.courseExperts__content p {
+		font-size: 15px;
+	}
+
+	.courseEdutoria__inner h2 {
+		font-size: 20px;
+		margin-bottom: 25px;
+	}
+
+	.courseEdutoria__item h5 {
+		font-size: 17px;
+	}
+
+	.courseEdutoria__inner {
+		padding: 25px 20px;
+	}
+
+	.courseTelemedicine__left h2 {
+		font-size: 20px;
+	}
+
+	.courseTelemedicine__text {
+		font-size: 15px;
+	}
+
+	.courseTelemedicine__textPurple {
+		font-size: 18px;
+	}
+
+	.courseTelemedicine__right h3 {
+		font-size: 17px;
+	}
+
+	.courseTelemedicine__item h5 {
+		font-size: 16px;
+	}
+
+	.courseTelemedicine__item p {
+		font-size: 15px;
+	}
+
+	.courseTelemedicine__list {
+		gap: 20px;
+	}
+
+	.courseTelemedicine__inner > div {
+		padding: 25px 20px;
+		padding-bottom: 40px;
+	}
+
+	.courseGoal__right h2 {
+		font-size: 20px;
+	}
+
+	.courseGoal__right ul {
+		font-size: 15px;
+	}
+
+	.courseGoal__item-number {
+		font-size: 35px;
+	}
+
+	.courseGoal__item-text {
+		font-size: 20px;
+	}
+
+	.courseGoal__item p {
+		font-size: 13px;
+	}
+
+	.courseGoal__right ul {
+		margin-bottom: 20px;
+	}
+
+	.courseBuy__inner h2 {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+
+	.courseBuy__right p {
+		font-size: 15px;
+		margin-bottom: 30px;
+	}
+
+	.courseBuy__right button {
+		font-size: 15px;
+	}
+
+	.courseBuy__left img {
+		width: 90px;
+	}
+
+	.courseBuy__content > div {
+		width: auto;
+	}
+
+	.courseAdditions__content {
+		width: 100%;
+	}
+
+	.courseAdditions img {
+		width: 100%;
+	}
+
+	.courseAdditions__content h2 {
+		font-size: 20px;
+	}
+
+	.courseAdditions__content p {
+		font-size: 15px;
+	}
+}
