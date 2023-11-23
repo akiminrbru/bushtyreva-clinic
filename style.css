@@ -245,7 +245,7 @@ body {
 }
 
 .courseEdutoria {
-	padding: 30px 0;
+	padding-bottom: 80px;
 }
 
 .courseEdutoria__inner {
@@ -427,6 +427,10 @@ body {
 	max-width: 463px;
 	width: 100%;
 	height: auto;
+}
+
+.courseBuy {
+	padding-bottom: 140px;
 }
 
 .courseBuy__inner h2 {
